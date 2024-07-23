@@ -6,7 +6,6 @@
             "email": "christiannmenezes@gmail.com"
         }
     ],
-    "require": {},
     "autoload": {
         "psr-4": {
             "app\\": "app/"
@@ -16,5 +15,8 @@
         "psr-4": {
             "tests\\": "tests/"
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
     }
 }
